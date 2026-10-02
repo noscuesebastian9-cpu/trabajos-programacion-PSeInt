@@ -1,0 +1,43 @@
+Algoritmo Cinco_Valores_opracion
+	
+	Definir a, b, c, d, e Como Real
+	Definir suma, resta1, resta2, multiplicacion, resultado Como Real
+	
+	Escribir "Ingrese el primer valor:"
+	Leer a
+	
+	Escribir "Ingrese el segundo valor:"
+	Leer b
+	
+	Escribir "Ingrese el tercer valor:"
+	Leer c
+	
+	Escribir "Ingrese el cuarto valor:"
+	Leer d
+	
+	Escribir "Ingrese el quinto valor:"
+	Leer e
+	
+	suma <- a + b + c + d + e
+	
+	resta1 <- suma - a - b - c
+	
+	resta2 <- suma - d - e
+	
+	multiplicacion <- resta1 * resta2
+	
+	divicion <- suma / multiplicacion
+	
+	Escribir "Primer valor: ", a
+	Escribir "Segundo valor: ", b
+	Escribir "Tercer valor: ", c
+	Escribir "Cuarto valor: ", d
+	Escribir "Quinto valor: ", e
+	
+	Escribir "Suma inicial: ", suma
+	Escribir "Primera resta: ", resta1
+	Escribir "Segunda resta: ", resta2
+	Escribir "Multiplicacion: ", multiplicacion
+	Escribir "Resultado final: ", divicion
+	
+FinAlgoritmo
